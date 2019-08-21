@@ -1,3 +1,10 @@
+---
+layout: default
+title: Applications
+parent: Linux Analysis
+nav_order: 2
+---
+
 ## Applications
 The term applications is used to describe utilities and their associated packages.
 In Linux, this essentially means anything that is natively installed as part of a distribution, installed through an update manager, or obtained from a third-party source.
