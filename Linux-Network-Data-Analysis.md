@@ -1,3 +1,10 @@
+---
+layout: default
+title: Network Data
+parent: Linux Analysis
+nav_order: 2
+---
+
 ## Network Data
 Network data is information about a system's network connection configuration and state.
 It allows the determination of what connections exist for a system, how those connections are established, and the system's role in the larger context of a network.
