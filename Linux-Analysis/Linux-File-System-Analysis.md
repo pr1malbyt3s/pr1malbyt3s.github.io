@@ -1,3 +1,10 @@
+---
+layout: default
+title: Files, Devices, and Disks
+parent: Linux Analysis
+nav_order: 2
+---
+
 ## Files, Devices, and Disks
 Disk and file system information encompasses a lot, but essentially, we care about understanding how to make sense of the file system structure and its contents, along with how disks and devices are configured for the a system.
 The ability to find files based on attributes is essential because it can help uncover items that may have been used in an attack, or identify items that remain after an attack occurred.
