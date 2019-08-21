@@ -1,3 +1,10 @@
+---
+layout: default
+title: Services and Daemons
+parent: Linux Analysis
+nav_order: 2
+---
+
 ## Services and Daemons
 On Linux systems, the term service is often used interchangably with the term daemon, although they are technically two different entities.
 A daemon can be thought of as the background (without terminal attachment) program that implements a particular function.
