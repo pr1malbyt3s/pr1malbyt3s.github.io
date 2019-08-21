@@ -1,3 +1,11 @@
+---
+layout: default
+title: Linux Analysis
+nav_order: 2
+has_children: true
+permalink: /Linux-Analysis
+---
+
 # Linux Analysis Reference
 
 *The purpose of this guide is to serve as a reference for baseline analysis tasks when investigating a Linux system.*  
