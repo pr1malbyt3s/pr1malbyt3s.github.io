@@ -3,4 +3,4 @@ title: Pr1malbyt3s
 email: aaronwilliams.infosec@gmail.com
 remote_theme: pmarsceill/just-the-docs
 heading_anchors: false
-footer_content: (Copyright &copy; '`r format(Sys.Date(), "%B %d, %Y")`' Aaron Williams.)
+color_scheme: "dark"
