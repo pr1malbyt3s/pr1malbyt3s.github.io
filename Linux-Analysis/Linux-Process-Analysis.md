@@ -1,3 +1,10 @@
+---
+layout: default
+title: Processes
+parent: Linux Analysis
+nav_order: 2
+---
+
 ## Processes
 A process is commonly defined as a running instance of a computer program.
 Each process has a set instructions, which are executed in memory, that tell the system what to execute.
