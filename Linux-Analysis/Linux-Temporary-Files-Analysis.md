@@ -1,3 +1,10 @@
+---
+layout: default
+title: Temporary Files
+parent: Linux Analysis
+nav_order: 2
+---
+
 ## Temporary Files
 A temporary file system is one that is not disk persistent, but instead resides only in memory.
 Not only does a temporary file system provide faster read/write times by residing in memory, but they create a unique way to hide files.
