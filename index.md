@@ -1,1 +1,1 @@
-Welcome to pr1malbyt3s.com! k
+Welcome to Pr1malbyt3s! This site's intended use is mine and others' educational benefit. If you have any criticism, discussion points, or questions, please reach out at anytime. Enjoy!
