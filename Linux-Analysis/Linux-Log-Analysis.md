@@ -1,3 +1,10 @@
+---
+layout: default
+title: Logs
+parent: Linux Analysis
+nav_order: 2
+---
+
 ## Logs
 If any artifact speaks for itself in terms of value, it would arguably be log files.
 When any significant event occurs on a Linux system, it generates an entry in the relevant log file or files.
