@@ -2,3 +2,4 @@ title: Pr1malbyt3s
 remote_theme: pmarsceill/just-the-docs
 heading_anchors: false
 color_scheme: "dark"
+exclude: README.md
