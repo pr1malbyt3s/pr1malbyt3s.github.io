@@ -1,3 +1,10 @@
+---
+layout: default
+title: Scheduled Jobs (Cron)
+parent: Linux Analysis
+nav_order: 2
+---
+
 ## Scheduled Jobs (Cron)
 One of the most common tasks associated with Linux systems is creating scheduled tasks, or cron jobs.
 The cron utility is a staple for any Linux administrator and is even often used by regular Linux users.
