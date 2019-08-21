@@ -1,3 +1,9 @@
+---
+layout: default
+title: Memory
+parent: Linux Analysis
+nav_order: 2
+---
 
 ## Memory
 In the context of computers, memory contains the current running state of a system. 
