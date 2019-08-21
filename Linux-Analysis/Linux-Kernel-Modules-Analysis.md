@@ -1,3 +1,10 @@
+---
+layout: default
+title: Kernel Modules
+parent: Linux Analysis
+nav_order: 2
+---
+
 ## Kernel Modules
 The term kernel modules is used to represent the technically correct term, loadable kernel modules (LKMs).
 LKMs provide a way to add code to the Linux kernel while it is running, as opposed to adding code to the kernel and recompiling it.
