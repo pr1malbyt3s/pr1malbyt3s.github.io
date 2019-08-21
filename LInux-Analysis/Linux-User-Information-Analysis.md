@@ -1,3 +1,10 @@
+---
+layout: default
+title: User Information
+parent: Linux Analysis
+nav_order: 2
+---
+
 ## User Information
 Information pertaining to individual users is commonly viewed as one of the most useful forensic data sources for security incidents.
 Not only does it provide a wealth of information, but it also provides a concept of attribution.
