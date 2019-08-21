@@ -1,3 +1,10 @@
+---
+layout: default
+title: Host Firewall
+parent: Linux Analysis
+nav_order: 2
+---
+
 ## Host Firewall
 Like many other distributions, CentOS and RHEL utilize the netfilter kernel module to do packet filtering.
 Netfilter utilizes iptables as the user space utility for configuring packet filtering at the kernel level.
