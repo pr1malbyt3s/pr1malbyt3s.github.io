@@ -8,5 +8,5 @@ nav_order: 1
 # About
 
 [Twitter](https://twitter.com/pr1malbyt3s){: .btn .btn-blue .mr-2 }
-Linkedin:
-Gmail: aaronwilliams.infosec@gmail.com
+[LinkedIn](https://www.linkedin.com/in/aaronwilliams-infosec){: .btn .btn-blue .mr-2 }
+[Gmail](https://mail.google.com/mail/u/0/?view=cm&fs=1&to=aaronwilliams.infosec@gmail.com&tf=1){: .btn .btn-red .mr-2 }
