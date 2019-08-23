@@ -13,7 +13,9 @@ Well, when I initially broke into Information Security (InfoSec), I felt like (a
 ## What's with the wolf?
 Wolves have been around since the inception of what I consider our most primal era as humans. Not only are wolves representative of the primal theme, but they are also an icon of persisting with constantly changing environments, which I strive to do as a professional. Most importantly, the wolf is bottom line a badass animal and also the mascot of my alma mater.
   
-[Twitter](https://twitter.com/pr1malbyt3s){: .btn .btn-blue .mr-2 }
-[LinkedIn](https://www.linkedin.com/in/aaronwilliams-infosec){: .btn .btn-blue .mr-2 }
-[Gmail](https://mail.google.com/mail/u/0/?view=cm&fs=1&to=aaronwilliams.infosec@gmail.com&tf=1){: .btn .mr-2 }
-[GitHub](https://github.com/pr1malbyt3s){: .btn .btn-green .mr-2 }
+  
+## Contact
+[Twitter](https://twitter.com/pr1malbyt3s){: .btn .btn-blue .mr-2 .mx-auto .d-block }
+[LinkedIn](https://www.linkedin.com/in/aaronwilliams-infosec){: .btn .btn-blue .mr-2 .mx-auto .d-block }
+[Gmail](https://mail.google.com/mail/u/0/?view=cm&fs=1&to=aaronwilliams.infosec@gmail.com&tf=1){: .btn .mr-2 .mx-auto .d-block  }
+[GitHub](https://github.com/pr1malbyt3s){: .btn .btn-green .mr-2 .mx-auto .d-block }
