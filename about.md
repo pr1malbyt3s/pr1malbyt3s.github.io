@@ -15,7 +15,7 @@ Wolves have been around since the inception of what I consider our most primal e
   
   
 ## Contact
-[Twitter](https://twitter.com/pr1malbyt3s){: .btn .btn-blue .mr-2 .mx-auto .d-block }
-[LinkedIn](https://www.linkedin.com/in/aaronwilliams-infosec){: .btn .btn-blue .mr-2 .mx-auto .d-block }
-[Gmail](https://mail.google.com/mail/u/0/?view=cm&fs=1&to=aaronwilliams.infosec@gmail.com&tf=1){: .btn .mr-2 .mx-auto .d-block  }
-[GitHub](https://github.com/pr1malbyt3s){: .btn .btn-green .mr-2 .mx-auto .d-block }
+[Twitter](https://twitter.com/pr1malbyt3s){: .btn .btn-blue .mr-2 .mx-auto }
+[LinkedIn](https://www.linkedin.com/in/aaronwilliams-infosec){: .btn .btn-blue .mr-2 .mx-auto }
+[Gmail](https://mail.google.com/mail/u/0/?view=cm&fs=1&to=aaronwilliams.infosec@gmail.com&tf=1){: .btn .mr-2 .mx-auto  }
+[GitHub](https://github.com/pr1malbyt3s){: .btn .btn-green .mr-2 .mx-auto }
