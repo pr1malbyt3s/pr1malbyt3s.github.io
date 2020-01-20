@@ -1,3 +1,10 @@
+---
+layout: default
+title: SQLite Browser Artifacts
+parent: Forensics
+nav_order: 2
+---
+
 # Using SQLite to Gather Browser Artifacts
   
 Often times, a security incident involves actions taken by a user, such as opening a malicious email attachment or downloading a file from a visited website. In order to further understand what initiated the event, we concern ourselves with what sites the user has browsed and what he or she has downloaded, whether intentionally or inadvertently. According to http://gs.statcounter.com/, Google Chrome currently (as of January 2020) holds a 63.62% market share of browsers used and Mozilla Firefox holds a 4.39% share. If you're an avid Linux user like myself, you very well know that almost every distro comes with either of these browsers installed. Additionally, a quick poll of my colleagues, family, and friends who are Windows users revealed that when available, most users will choose to use Chrome. 
