@@ -48,7 +48,7 @@ Next, we'll add to our OUTPUT chain to allow icmp connections outbound:
 ```bash
 iptables -A OUTPUT -p icmp -m state --state NEW,ESTABLISHED -j ACCEPT
 ```
-Trying pinging the Google DNS server again. This time you won't receive an error message, but you won't see any responses either because by default, inbound packets are still dropped. Make sure to hit 'Ctrl+c' to stop the process and you'll get your ping statistics. 
+Try pinging the Google DNS server again. This time you won't receive an error message, but you won't see any responses either because by default, inbound packets are still dropped. Make sure to hit 'Ctrl+c' to stop the process and you'll get your ping statistics. 
 We have to allow inbound packets for the established session over ICMP:
 ```bash
 iptables -A INPUT -p icmp -m state --state ESTABLISHED -j ACCEPT
