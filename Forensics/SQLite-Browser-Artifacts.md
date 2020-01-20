@@ -54,7 +54,7 @@ Knowing now where the relevant Chrome SQLite files are located and what informat
 __downloads:__
 
 | id (pk) | guid | current_path | target_path | start_time | received_bytes | total_bytes | state | danger_type | interrupt_reason | hash | end_time | opened | last_access_time | transient | referrer | site_url | tab_url | tab_referrer_url | http_method | by_ext_id | by_ext_name | etag | last_modified | mime_type| original_mime_type |
-|---------|------|--------------|-------------|------------|----------------|-------------|-------|-------------|------------------|------|----------|--------|------------------|-----------|----------|----------|---------|------------------|-------------|-----------|-------------|------|---------------|----------|--------------------|
+| ------- | ---- | ------------ | ----------- | ---------- | -------------- | ----------- | ----- | ----------- | ---------------- | ---- | -------- | ------ | ---------------- | --------- | -------- | -------- | ------- | ---------------- | ---------- | --------- | ----------- | ---- | ------------- | -------- | ------------------ |
   
 That's a lot of columns! Although there are twenty-six total columns, we're only concerned with two. The two columns we care about retrieving data for are the __referrer__ and __target_path__ columns. The __referrer__ value describes where a request for download originated from. The __target_path__ value tells us what was downloaded and to what full path on the system.
   
