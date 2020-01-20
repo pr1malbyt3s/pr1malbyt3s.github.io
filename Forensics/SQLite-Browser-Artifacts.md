@@ -54,8 +54,7 @@ Knowing now where the relevant Chrome SQLite files are located and what informat
 __downloads:__
 
 | id (pk) | guid | current_path | target_path | start_time | received_bytes | total_bytes | state | danger_type | interrupt_reason | hash | end_time | opened | last_access_time | transient | referrer | site_url | tab_url | tab_referrer_url | http_method | by_ext_id | by_ext_name | etag | last_modified | mime_type| original_mime_type |  
-| ------- | ---- | ------------ | ----------- | ---------- | -------------- | ----------- | ----- | ----------- | ---------------- | ---- | -------- | ------ | ---------------- | --------- | -------- | -------- | ------- | ---------------- | ----------- | --------- | ----------- | ---- | ------------- | -------- | ------------------ |  
-  
+
 That's a lot of columns! Although there are twenty-six total columns, we're only concerned with two. The two columns we care about retrieving data for are the __referrer__ and __target_path__ columns. The __referrer__ value describes where a request for download originated from. The __target_path__ value tells us what was downloaded and to what full path on the system.
   
 The example query in Windows:
@@ -93,17 +92,13 @@ Now that we know where to find the files, we need to know what each file actuall
 So now that we know which Firefox SQLite file contains visited site history (__places.sqlite__), let's take a look at a couple of tables in that database file to understand how to structure a useful query. Inside the __places.sqlite__ database file, there are two tables, __moz_places__ and __moz_annos__, that store information needed to find downloaded files. Their table structures are shown below: 
   
 __moz_places:__  
-|---------+-----+-------+----------+-------------+--------+-------+-----------------+----------|
 
 | id (pk) | url | title | rev_host | visit_count | hidden | typed | favicon_id (fk) | frecency |
 
-|---------|-----|-------|----------|-------------|--------|-------|-----------------|----------|
-
   
-__moz_annos:__
+__moz_annos:__  
 
 | id (pk) | place_id (fk) | anno_attribute_id (fk) | mime_type | content | flags | expiration | type | dateAdded | lastModified |  
-|---------|---------------|------------------------|-----------|---------|-------|------------|------|-----------|--------------|  
   
 Each table has an __id__ field used as its primary key (pk). The two columns we care about retrieving information for are the __url__ column found in __moz_places__ and the __content__ column found in __moz_annos__. Luckily, __moz_annos__ contains a foreign key (fk) field, __place_id__, that references the primary key (pk) __id__ field found in __mod_places__. Using this relationship, we can use an effective JOIN statement to retrieve urls for which downloaded content has been recorded.  
 The example query in Windows:
