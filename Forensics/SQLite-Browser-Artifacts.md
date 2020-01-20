@@ -93,7 +93,7 @@ Now that we know where to find the files, we need to know what each file actuall
 So now that we know which Firefox SQLite file contains visited site history (__places.sqlite__), let's take a look at a couple of tables in that database file to understand how to structure a useful query. Inside the __places.sqlite__ database file, there are two tables, __moz_places__ and __moz_annos__, that store information needed to find downloaded files. Their table structures are shown below: 
   
 __moz_places:__
-
+|---------|-----|-------|----------|-------------|--------|-------|-----------------|----------|
 | id (pk) | url | title | rev_host | visit_count | hidden | typed | favicon_id (fk) | frecency |  
 |---------|-----|-------|----------|-------------|--------|-------|-----------------|----------|  
   
