@@ -1,3 +1,7 @@
+---
+title: Home
+---
+
 ![alt text](/assets/images/Pr1malbyt3s_Logo.png "Pr1malbyt3s"){: .mx-auto .d-block }
 
 # Welcome to Pr1malbyt3s! 
