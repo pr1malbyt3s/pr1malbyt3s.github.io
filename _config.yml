@@ -5,4 +5,5 @@ markdown: kramdown
 webrick:
   headers:
     Strict-Transport-Security: max-age=31556952; includeSubdomains
+    OhCaptain: MyCaptain
 exclude: ["README.md", "CNAME"]
