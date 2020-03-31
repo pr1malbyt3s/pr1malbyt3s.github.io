@@ -15,7 +15,7 @@ Since there is a high probability of a security incident spawning from an end-us
   
 Luckily, both browsers utilize a SQLite format file to store this information to disk. As defined by sqlite.org- "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine". Basically, it is a database application whose file format is used by many other applications to store persistent data, which is easily accessed without the burden of an external service (such as MySQL, MSSQL, etc.). We'll explore how SQLite is similarly used by each browswer and how to access each their respective data using native shell commands.
 
-*If you do not have SQLite installed, you can download here for Windows: [https://sqlite.org/download.html] and using the following commands for Linux:*
+*If you do not have SQLite installed, you can download here for Windows: <https://sqlite.org/download.html> and using the following commands for Linux:*
 ```sh
 sudo apt-get install sqlite
 #Debian based distributions.
@@ -113,6 +113,6 @@ sqlite3 ~/.mozilla/firefox/<PROFILE>.default/places.sqlite "SELECT url, content 
 Enjoy!  
   
 ### Sources:
-[http://www.forensicswiki.org/wiki/Google_Chrome]
-[https://developer.mozilla.org/en-US/docs/Mozilla/Tech/Places/Database]   
-[https://forensicswiki.org/wiki/Mozilla_Firefox]
+<http://www.forensicswiki.org/wiki/Google_Chrome>
+<https://developer.mozilla.org/en-US/docs/Mozilla/Tech/Places/Database>
+<https://forensicswiki.org/wiki/Mozilla_Firefox>
