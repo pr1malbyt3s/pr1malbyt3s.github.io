@@ -113,6 +113,6 @@ sqlite3 ~/.mozilla/firefox/<PROFILE>.default/places.sqlite "SELECT url, content 
 Enjoy!  
   
 ### Sources:
-<http://www.forensicswiki.org/wiki/Google_Chrome>
-<https://developer.mozilla.org/en-US/docs/Mozilla/Tech/Places/Database>
+<http://www.forensicswiki.org/wiki/Google_Chrome>  
+<https://developer.mozilla.org/en-US/docs/Mozilla/Tech/Places/Database>  
 <https://forensicswiki.org/wiki/Mozilla_Firefox>
