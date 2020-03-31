@@ -7,7 +7,7 @@ nav_order: 2
 
 # Using SQLite to Gather Browser Artifacts
   
-Often times, a security incident involves actions taken by a user, such as opening a malicious email attachment or downloading a file from a visited website. In order to further understand what initiated the event, we concern ourselves with what sites the user has browsed and what he or she has downloaded, whether intentionally or inadvertently. According to http://gs.statcounter.com/, Google Chrome currently (as of January 2020) holds a 63.62% market share of browsers used and Mozilla Firefox holds a 4.39% share. If you're an avid Linux user like myself, you very well know that almost every distro comes with either of these browsers installed. Additionally, a quick poll of my colleagues, family, and friends who are Windows users revealed that when available, most users will choose to use Chrome. 
+Often times, a security incident involves actions taken by a user, such as opening a malicious email attachment or downloading a file from a visited website. In order to further understand what initiated the event, we concern ourselves with what sites the user has browsed and what he or she has downloaded, whether intentionally or inadvertently. According to [http://gs.statcounter.com/], Google Chrome currently (as of January 2020) holds a 63.62% market share of browsers used and Mozilla Firefox holds a 4.39% share. If you're an avid Linux user like myself, you very well know that almost every distro comes with either of these browsers installed. Additionally, a quick poll of my colleagues, family, and friends who are Windows users revealed that when available, most users will choose to use Chrome. 
   
 Since there is a high probability of a security incident spawning from an end-user workstation, it's important to know where to find artifacts these browsers create because of their potential usefulness in an investigation. You might be thinking- "Can't I just open up Chrome or Firefox and check the history in the browser?". The simple answer is "sure", but consider two scenarios where that might be infeasible:
 1. You can only access the suspected compromised machine remotely (think Secure Shell or PowerShell Remoting).
@@ -15,7 +15,7 @@ Since there is a high probability of a security incident spawning from an end-us
   
 Luckily, both browsers utilize a SQLite format file to store this information to disk. As defined by sqlite.org- "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine". Basically, it is a database application whose file format is used by many other applications to store persistent data, which is easily accessed without the burden of an external service (such as MySQL, MSSQL, etc.). We'll explore how SQLite is similarly used by each browswer and how to access each their respective data using native shell commands.
 
-*If you do not have SQLite installed, you can download here for Windows: https://sqlite.org/download.html and using the following commands for Linux:*
+*If you do not have SQLite installed, you can download here for Windows: [https://sqlite.org/download.html] and using the following commands for Linux:*
 ```sh
 sudo apt-get install sqlite
 #Debian based distributions.
@@ -113,6 +113,6 @@ sqlite3 ~/.mozilla/firefox/<PROFILE>.default/places.sqlite "SELECT url, content 
 Enjoy!  
   
 ### Sources:
-http://www.forensicswiki.org/wiki/Google_Chrome  
-https://developer.mozilla.org/en-US/docs/Mozilla/Tech/Places/Database   
-https://forensicswiki.org/wiki/Mozilla_Firefox
+[http://www.forensicswiki.org/wiki/Google_Chrome]
+[https://developer.mozilla.org/en-US/docs/Mozilla/Tech/Places/Database]   
+[https://forensicswiki.org/wiki/Mozilla_Firefox]
