@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Logs
 parent: Linux Analysis
-nav_order: 2
+nav_order: 5
 ---
 
 ## Logs

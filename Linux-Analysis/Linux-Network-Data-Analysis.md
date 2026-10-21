@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Network Data
 parent: Linux Analysis
-nav_order: 2
+nav_order: 7
 ---
 
 ## Network Data

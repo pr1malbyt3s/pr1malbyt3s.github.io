@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Files, Devices, and Disks
 parent: Linux Analysis
 nav_order: 2

@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Memory
 parent: Linux Analysis
-nav_order: 2
+nav_order: 6
 ---
 
 ## Memory

@@ -1,5 +1,20 @@
 title: Pr1malbyt3s
-remote_theme: just-the-docs/just-the-docs
-heading_anchors: false
+theme: just-the-docs
+heading_anchors: true
 markdown: kramdown
-exclude: ["README.md", "CNAME"]
+exclude: ["README.md", "CNAME", "backup_old"]
+plugins:
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# just-the-docs settings
+logo: "/assets/images/Pr1malbyt3s_Logo.png"
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preload: false
+aux_links:
+  "LinkedIn": "https://www.linkedin.com/in/aaronwilliams-infosec"
+  "GitHub": "https://github.com/pr1malbyt3s"
+footer_content: "&copy; Aaron Williams {{ site.time | date: '%Y' }} | All Rights Reserved."

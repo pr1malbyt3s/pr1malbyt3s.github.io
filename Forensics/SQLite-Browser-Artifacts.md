@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: SQLite Browser Artifacts
 parent: Forensics
-nav_order: 2
+nav_order: 1
 ---
 
 # Using SQLite to Gather Browser Artifacts

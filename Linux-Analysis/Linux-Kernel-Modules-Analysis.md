@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Kernel Modules
 parent: Linux Analysis
-nav_order: 2
+nav_order: 4
 ---
 
 ## Kernel Modules

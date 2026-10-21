@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Processes
 parent: Linux Analysis
-nav_order: 2
+nav_order: 8
 ---
 
 ## Processes

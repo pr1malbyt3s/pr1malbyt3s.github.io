@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Scheduled Jobs (Cron)
 parent: Linux Analysis
-nav_order: 2
+nav_order: 9
 ---
 
 ## Scheduled Jobs (Cron)

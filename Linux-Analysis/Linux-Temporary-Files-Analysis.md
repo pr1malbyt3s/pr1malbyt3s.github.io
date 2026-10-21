@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Temporary Files
 parent: Linux Analysis
-nav_order: 2
+nav_order: 11
 ---
 
 ## Temporary Files

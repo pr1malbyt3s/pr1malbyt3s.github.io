@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: Forensics
-nav_order: 2
+nav_order: 4
 has_children: true
 permalink: /Forensics
 ---

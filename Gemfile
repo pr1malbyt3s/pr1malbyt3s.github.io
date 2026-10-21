@@ -1,0 +1,12 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+# gem "rails"
+
+gem "jekyll", "~> 4.4"
+group :jekyll_plugins do
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-include-cache'
+  gem 'just-the-docs', '~> 0.12.0'
+end

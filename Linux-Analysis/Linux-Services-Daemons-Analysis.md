@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Services and Daemons
 parent: Linux Analysis
-nav_order: 2
+nav_order: 10
 ---
 
 ## Services and Daemons

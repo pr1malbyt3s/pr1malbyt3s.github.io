@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: User Information
 parent: Linux Analysis
-nav_order: 2
+nav_order: 12
 ---
 
 ## User Information
